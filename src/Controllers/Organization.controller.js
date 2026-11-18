@@ -1,4 +1,4 @@
-import organizationService from '../Services/organization.service.js';
+import organizationService from '../Services/Organization.service.js';
 
 class OrganizationController {
     static async getAllOrganizations(req, res) {
