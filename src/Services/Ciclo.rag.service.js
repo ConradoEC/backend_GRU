@@ -21,6 +21,8 @@ import { fileURLToPath } from "url";
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const KNOWLEDGE_DIR = join(__dirname, "..", "data", "ciclo-knowledge");
 
+// console.log()
+
 // ── Tokenização e utilidades de texto ───────────────────────────────────────
 const STOPWORDS = new Set([
   "a", "o", "as", "os", "de", "da", "do", "das", "dos", "e", "ou", "que",
