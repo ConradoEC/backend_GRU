@@ -19,7 +19,7 @@ import { fileURLToPath } from "url";
  */
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-const KNOWLEDGE_DIR = join(__dirname, "..", "data", "ciclo-knowledge");
+const KNOWLEDGE_DIR = join(__dirname, "..", "data", "Ciclo-knowledge");
 
 // console.log()
 
