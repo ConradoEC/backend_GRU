@@ -36,7 +36,8 @@ class OrganizationService {
 
     static async getThisOrganizationById(idOrganization) {
         try {
-            const thisOrganization = await organizationModel.findOne({_id: idOrganization});
+            console.log(idOrganization)
+            const thisOrganization = await organizationModel.findById(idOrganization);
             return thisOrganization;
         }
         catch (error) {
