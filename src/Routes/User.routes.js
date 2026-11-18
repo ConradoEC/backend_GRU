@@ -13,4 +13,6 @@ router.post("/login", userController.login);
 
 router.post("/create-user", userController.createUser);
 
+router.post("/social-login", userController.socialLogin);
+
 export default router;
