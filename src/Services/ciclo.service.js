@@ -3,7 +3,7 @@ import {
   executarFerramenta,
   graficoDaFerramenta,
   schemasDasFerramentas,
-} from "./Ciclo.tools.js";
+} from "./ciclo.tools.js";
 
 /**
  * Agente Ciclo.
