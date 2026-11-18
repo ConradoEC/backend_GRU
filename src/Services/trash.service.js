@@ -1,6 +1,6 @@
 import trashModel from '../Models/trash.model.js';
 import userService from './user.service.js';
-import organizationService from './organization.service.js';
+import organizationService from './Organization.service.js';
 import userModel from '../Models/user.model.js';
 
 class TrashService {
